@@ -1,0 +1,45 @@
+# Jupyter notebooks
+*.ipynb
+*.ipynb_checkpoints
+
+# Images and charts (except confustion matrix visuals)
+*.png
+*.jpg
+*.jpeg
+
+# Data files
+*.csv
+!model_comparison.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# CatBoost
+catboost_info/
+
+# Misc
+*.log
+.env
+.env.local

@@ -1,0 +1,22 @@
+[client]
+showErrorDetails = true
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 200
+enableXsrfProtection = true
+headless = true
+
+[cache]
+maxEntries = 1000
+expireAfterCalls = 1000
+
+[logger]
+level = "error"
+
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f8ff"
+textColor = "#262730"
+font = "sans serif"
